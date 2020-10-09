@@ -5,6 +5,6 @@
 
 @mytag2
 Scenario: In the Dashboard, choose one of the heroes and go to the details page, change its name and save it;
-	Given That Im in Dashboard view AND I have the Hero 'Mr. Nice,Narco'
+	Given That Im in Dashboard view AND I have the Hero 'Mr.Nice,Narco'
 	When I Click'Mr.Nice'
 	Then Mr.Nice Information should appear with Id > 0 and Name as'Mr.Nice'
